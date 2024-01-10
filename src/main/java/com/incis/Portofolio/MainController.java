@@ -18,27 +18,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 
 @Controller
-// @RequestMapping(path="/demo")
 @RequestMapping
 public class MainController {
-    // @Autowired
-    // private UserRepository userRepository;
-    
-    // @PostMapping(path="/add")
-    // public @ResponseBody String addNewUser (@RequestParam String name, @RequestParam String email){
-    //     UserModel n = new UserModel();
-    //     n.setName(name);
-    //     n.setEmail(email);
-    //     userRepository.save(n);
-    //     return "Successfully Saved";
-    // }
-    
-    // @GetMapping(path="/all")
-    // public @ResponseBody Iterable<UserModel> getAllUsers(){
-    //     return userRepository.findAll();
-    // }
 
-    // @GetMapping(path="/test")
     @GetMapping
     public @ResponseBody String connectionTest () {
         return "Connection Success!";

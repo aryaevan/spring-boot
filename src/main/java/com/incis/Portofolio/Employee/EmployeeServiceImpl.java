@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class EmployeeServiceImpl implements EmployeeService{
 
-    //Autowiring is part of JAVA IOC
+    //Autowiring is part of SPRING IOC
     @Autowired
     private EmployeeRepository repo;
 
