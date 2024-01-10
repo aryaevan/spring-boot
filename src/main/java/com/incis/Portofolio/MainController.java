@@ -18,7 +18,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 
 @Controller
-@RequestMapping(path="/demo")
+// @RequestMapping(path="/demo")
+@RequestMapping
 public class MainController {
     // @Autowired
     // private UserRepository userRepository;
@@ -37,7 +38,8 @@ public class MainController {
     //     return userRepository.findAll();
     // }
 
-    @GetMapping(path="/test")
+    // @GetMapping(path="/test")
+    @GetMapping
     public @ResponseBody String connectionTest () {
         return "Connection Success!";
     }
