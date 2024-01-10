@@ -12,7 +12,7 @@ import javax.persistence.Table;
 import com.incis.Portofolio.Employee.EmployeeModel;
 
 @Entity
-@Table(name = "")
+@Table(name = "t_project_asignee")
 public class ProjectAsigneeModel {
     
     @Id
