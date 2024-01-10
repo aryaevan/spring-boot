@@ -1,4 +1,4 @@
-package com.incis.spring;
+package com.incis.Portofolio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

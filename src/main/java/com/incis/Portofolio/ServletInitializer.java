@@ -1,4 +1,4 @@
-package com.incis.spring;
+package com.incis.Portofolio;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
